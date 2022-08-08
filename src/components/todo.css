@@ -1,0 +1,112 @@
+.todo{
+    height: 100vh;
+    width: 100%;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.a{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text1{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: burlywood;
+}
+
+
+
+.b{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text2{
+    outline: none;
+    border: none;
+    height: 5vh;
+    width: 30vh;
+    background-color: cyan;
+}
+
+.btn-plus{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    border: none;
+    font-size: 15px;
+    background-color: blueviolet;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.c{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c1{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text3{
+    outline: none;
+    border: none;
+    height: 5vh;
+    width: 30vh;
+    background-color: cyan;
+    font-size: 10px;
+    color: red;
+    display: flex;
+    align-items: center;
+}
+
+.btn-delete{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    border: none;
+    font-size: 8px;
+    background-color: blueviolet;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+.d{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-clear{
+    height: 6vh;
+    width: 25vh;
+    border: none;
+    font-size: 12px;
+    background-color: blueviolet; 
+    cursor: pointer;
+}
